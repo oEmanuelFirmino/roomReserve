@@ -1,0 +1,28 @@
+.App {
+  background: linear-gradient(243deg, #B47FEA 28.17%, rgba(151, 85, 246, 0.99) 42.4%, rgba(42, 51, 132, 0.96) 70.32%, rgba(18, 22, 62, 0.96) 89%);
+  box-shadow: 0px 4px 50px 127px rgba(104, 26, 132, 0.05) inset;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: grid; 
+  grid-template-columns: 1fr 2.5fr; 
+  grid-template-rows: 1fr; 
+  grid-template-areas: ". ."; 
+  padding: 20px;
+  row-gap: 3rem;
+  column-gap: 3rem;
+
+  ::-webkit-scrollbar
+  {
+    width: 6px;
+    background-color: #F5F5F5;
+    border-radius: 1rem;
+
+  }
+
+  ::-webkit-scrollbar-thumb
+  {
+    background-color: #000000;
+    border-radius: 1rem;
+  }
+}
