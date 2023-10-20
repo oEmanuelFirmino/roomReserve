@@ -1,1 +1,1 @@
-https://oemanuelfirmino.github.io/roomReserve/public/index.html
+https://oemanuelfirmino.github.io/roomReserve/src/index.tsx
